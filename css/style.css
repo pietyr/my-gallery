@@ -9,4 +9,63 @@
 
 body {
 	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	color: var(--gray-6);
+	text-align: center;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+h1 {
+	font-size: clamp(0.875rem, 3vw, 1.5rem);
+	line-height: 1.215;
+}
+
+header p {
+	font-size: clamp(0.625rem, 2vw, 0.875rem);
+	color: var(--gray-5);
+	line-height: 1.2;
+}
+
+div.stats-wrapper {
+	display: flex;
+	justify-content: center;
+	gap: clamp(0.75rem, 3vw, 1.5rem);
+}
+
+div.stats {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 5%;
+	background-color: var(--gray-2);
+	border-radius: 12px;
+	width: clamp(78px, 14vw, 100px);
+	height: clamp(52px, 9vw, 67px);
+}
+
+span.value {
+	font-size: clamp(0.75rem, 2vw, 1.125rem);
+}
+span.title {
+	font-size: clamp(0.75rem, 2vw, 0.875rem);
+	color: var(--gray-4);
+}
+
+footer {
+	font-weight: 500;
+	font-size: 0.875rem;
+	color: var(--gray-3);
+}
+
+footer a {
+	font-weight: 700;
+	color: var(--gray-3);
+}
+
+footer a:visited {
+	color: var(--gray-3);
 }
