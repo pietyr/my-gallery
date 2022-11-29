@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://pietyr.github.io/my-gallery/">
+    <a target="_blank" href="https://pietyr.github.io/my-gallery/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/pietyr/my-gallery">
+    <a target="_blank"  href="https://github.com/pietyr/my-gallery">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
+    <a target="_blank"  href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
       Challenge
     </a>
   </h3>
