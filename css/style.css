@@ -13,9 +13,12 @@ body {
 	color: var(--gray-6);
 	text-align: center;
 	max-width: 980px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: clamp(2.5rem, 10vw, 4rem);
 	margin: 0 auto;
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
+	padding: clamp(1.5rem, 6vw, 4rem) 0.75rem;
 }
 
 img {
@@ -28,10 +31,27 @@ h1 {
 	line-height: 1.215;
 }
 
+h1,
+p {
+	margin: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: clamp(0.75rem, 3vw, 1.5rem);
+}
+
 header p {
 	font-size: clamp(0.625rem, 2vw, 0.875rem);
 	color: var(--gray-5);
 	line-height: 1.2;
+}
+
+header img {
+	width: clamp(100px, 25vw, 150px);
+	border-radius: 1rem;
 }
 
 div.stats-wrapper {
@@ -99,6 +119,7 @@ img.gallery-img:nth-child(6) {
 }
 
 footer {
+	margin-top: auto;
 	font-weight: 500;
 	font-size: 0.875rem;
 	color: var(--gray-3);
